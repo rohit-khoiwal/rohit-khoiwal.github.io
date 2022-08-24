@@ -1,0 +1,50 @@
+.navbar{
+    color: #fff !important;
+    padding:10px 0px 20px 0px!important;
+}
+.navbar-brand{
+    font-size: x-large !important;
+    font-weight: bolder;
+}
+
+#basic-navbar-nav{
+    margin-top: 12px !important;
+}
+
+.nav-link { 
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    font-size: large !important;
+    padding-bottom: 10px !important;
+}
+.nav-link span{
+    vertical-align: middle !important;
+    margin-left: 3px;
+}
+.nav-link:hover{
+    background-color: #007bff;
+    border-radius: 10px;
+    color: #fff !important;
+}
+
+.navbar .contact{
+    margin-left: 5px;
+    font-size: larger !important;
+    border: solid #151515;
+    padding: 15px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.55);
+    transition: 0.7s ease-in-out;
+    background: linear-gradient(to left, transparent 50%, #151515 50%) right;
+    background-size: 300%;
+}
+.navbar .contact span{
+    margin-left: 4px;
+}
+
+.navbar .contact:hover{
+    color: #fff;
+    background-position: left
+}
