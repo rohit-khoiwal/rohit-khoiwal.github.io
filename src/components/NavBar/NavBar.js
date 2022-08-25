@@ -1,7 +1,8 @@
 import React from "react";
 import "./style.css";
+// import logo from "./"
 
-import {Nav, Navbar, Container, Button} from "react-bootstrap";
+import {Nav, Navbar, Container} from "react-bootstrap";
 import {AiOutlineHome, AiOutlineProject} from "react-icons/ai";
 import {ImDownload2} from "react-icons/im";
 import {GiSkills} from "react-icons/gi";
@@ -12,7 +13,9 @@ export default function NavBar(){
     return (
         <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">Rohit Khoiwal</Navbar.Brand>
+          <Navbar.Brand href="#home" className="">
+            <img src="https://icons.veryicon.com/png/o/education-technology/blue-gray-solid-blend-icon/artificial-intelligence-5.png" alt="logo"/>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
             <Nav className="align-items-end">
@@ -37,7 +40,9 @@ export default function NavBar(){
                     <span>Blog</span>
                 </Nav.Link>
             </Nav>
-            <a href="#" className="contact align-self-end"><FaMailBulk/><span>Contact</span></a>
+            <div className="contact ">
+                <a href="#contact" className=""><FaMailBulk/><span>Contact</span></a>
+            </div>
 
           </Navbar.Collapse>
         </Container>
