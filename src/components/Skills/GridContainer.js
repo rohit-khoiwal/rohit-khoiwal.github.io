@@ -8,7 +8,7 @@ export default function GridContainer(props) {
         <>
             {items.map(({label, url}, i) => {
                 return (
-                    <Col key= {i} xs={6} md={3} lg={2}>
+                    <Col key= {i} xs={6} md={4} lg={3}>
                         <FadeIn><img className="skill-img" src={url} alt={""}/><br/>{label}</FadeIn>
                     </Col>
                 )

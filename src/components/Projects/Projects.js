@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import { Row, Col, Container } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import projectItems from "./project-items";
@@ -15,7 +15,7 @@ export default function Projects(){
                         <h1>PROJECTS</h1>
                     </Col>
                 </Row>
-                <Row>
+                <Row className="">
                     {projectItems.map((items,i) =>{ return <ProjectCard key={i} id ={i} items={items}/>})}
                 </Row>
             </Container>

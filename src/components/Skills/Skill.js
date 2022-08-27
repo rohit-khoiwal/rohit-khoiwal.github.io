@@ -41,8 +41,8 @@ export default function Skills(){
             <Container>
                 <Row>
                     <Col className="">
-                        <div className="cta-gradient-blur" style={{height:ht}}></div>
-                        <div className="skill-bx" style={{top: -ht-50}} ref={domRef}>
+                        <div className="cta-gradient-blur" id="grad1" style={{height:ht}}></div>
+                        <div className="skill-bx" id="skill-bx" style={{top: -ht-50}} ref={domRef}>
                             <h1>SKILLS</h1>
                             <Row className="align-items-center">
                                 <Col xs={12} md={6} lg={3}>
