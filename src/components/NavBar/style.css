@@ -42,7 +42,7 @@ div .navbar{
     border-radius: 10px;
 }
 
-.navbar .contact{
+.navbar .contactCell{
     margin-left: 5px;
     background-image: linear-gradient(90deg,#6f86ff,#b372ce 49%,#ff7586);
     box-shadow: 0 3px 7px 0 rgba(19,17,26,.14);
@@ -52,7 +52,7 @@ div .navbar{
     width: 150px;
     height: 60px;
 }
-.navbar .contact a{
+.navbar .contactCell a{
     border-radius: 1000px;
     align-self: center;
     text-align: center;
@@ -68,11 +68,11 @@ div .navbar{
     background: linear-gradient(to left, #131313 50%, transparent 50%) right;
     background-size: 300%;
 }
-.navbar .contact span{
+.navbar .contactCell span{
     margin-left: 4px;
 }
 
-.navbar .contact a:hover{
+.navbar .contactCell a:hover{
     color: #fff;
     background-position: left !important;
 }

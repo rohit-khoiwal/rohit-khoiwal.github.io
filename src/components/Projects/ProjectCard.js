@@ -7,7 +7,7 @@ export default function ProjectCard(props) {
     const items = props.items
     return (
         <Col xs={12} md={6} lg={6} className="">
-            <FadeIn id={props.id} which={"project"} className="">
+            <FadeIn id={props.id} which={"project"}>
                 <div className="project-item row">
                     <Col xs={6} className="d-none d-lg-block">
                         <img alt="" src={items.imgUrl}/>

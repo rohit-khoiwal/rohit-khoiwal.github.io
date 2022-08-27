@@ -1,10 +1,11 @@
 .projects{
-    position: relative;
-    padding-top: 0;
-    padding-bottom: 0;
+    /* position: relative; */
+    /* padding-top: 0;
+    padding-bottom: 0; */
     align-items: center;
     text-align: center;
-    top: -350px;
+    /* top: -350px; */
+    margin-top: 70px;
 }
 
 .projects h1{
@@ -95,3 +96,17 @@
     /* background-image: -webkit-gradient(linear,left top,right top,from(#1766ff),to(#ff4895)); */
     background-image: linear-gradient(90deg,#1766ff,#ff4895)
 }
+
+.projects .fade-in-section {
+    opacity: 0;
+    transform: translateY(25vh);
+    visibility: hidden;
+    transition: opacity 0.3s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility;
+}
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+  

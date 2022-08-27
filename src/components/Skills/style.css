@@ -9,11 +9,15 @@
   background-image: linear-gradient(90deg,rgba(77,84,255,.64),rgba(208,63,144,.64) 64%,rgba(255,56,104,.64));
   filter:blur(40px);
 }
+.skills{
+    position: relative;
+}
 
 .skill-bx {
     position: relative;
     font-weight: bold;
-    background: #151515;
+    /* background: #151515; */
+    background-color: #1d1a27;
     border-radius: 64px;
     text-align: center;
     padding: 60px 50px;
@@ -22,7 +26,8 @@
     -webkit-transform: translate(0,0);
     -ms-transform: translate(0,0);
     transform: translate(0,0);
-    top: -500px;
+    z-index: 1;
+    /* top: -500px; */
 }
 .skill-box{
   margin-top: 15px;
@@ -35,7 +40,7 @@
   font-size: large;
   font-weight: 600;
 }
-.skill p {
+.skills p {
     color: #B8B8B8;
     font-size: 18px;
     letter-spacing: 0.8px;
@@ -50,7 +55,7 @@
   background-color: transparent;
   border-radius: 15px;
 }
-.skill .fade-in-section {
+.skills .fade-in-section {
   opacity: 0;
   transform: translateX(-20vh);
   visibility: hidden;
@@ -61,4 +66,71 @@
   opacity: 1;
   transform: none;
   visibility: visible;
+}
+
+.skill-grad{
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45.6264deg) skew(0deg); 
+  transform-style: preserve-3d; 
+  will-change: transform;
+}
+
+
+.bg-gradient-blur-wrapper.home-hero-1 {
+	left: -180  px;
+	/* top: 0px; */
+  bottom: -50px;
+	min-height: 30%;
+	-webkit-filter: blur(100px);
+	filter: blur(100px);
+}
+.bg-gradient-blur-wrapper.home-hero-2 { 
+  right: 100px;
+	top: 100px;
+	min-height: 30%;
+	-webkit-filter: blur(100px);
+	filter: blur(100px);
+}
+
+
+.bg-gradient-blur-wrapper {
+	position: absolute;
+	width: 100%;
+	max-width: 44%;
+	min-height: 74%;
+	opacity: .5;
+	-webkit-filter: blur(100px);
+	filter: blur(100px);
+}
+
+.bg-gradient-blur-circle-3 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 70%;
+	min-height: 70%;
+	min-width: 70%;
+	border-radius: 1000000px;
+	background-color: #6923ff;
+}
+
+.bg-gradient-blur-circle-2 {
+	position: absolute;
+	right: 0;
+	bottom: 111px;
+	width: 70%;
+	max-height: 70%;
+	min-height: 70%;
+	min-width: 70%;
+	border-radius: 1000000px;
+	background-color: #fe316f;
+}
+
+.bg-gradient-blur-circle-1 {
+	position: absolute;
+	width: 70%;
+	max-height: 70%;
+	min-height: 70%;
+	min-width: 70%;
+	border-radius: 1000000px;
+	background-color: #d220ff;
 }

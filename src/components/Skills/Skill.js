@@ -37,12 +37,12 @@ export default function Skills(){
     }, []);
 
     return (
-        <section className="skill" id="skills">
+        <section className="skills" id="skills">
             <Container>
                 <Row>
                     <Col className="">
-                        <div className="cta-gradient-blur" id="grad1" style={{height:ht}}></div>
-                        <div className="skill-bx" id="skill-bx" style={{top: -ht-50}} ref={domRef}>
+                        {/* <div className="cta-gradient-blur" id="grad1" style={{height:ht}}></div> */}
+                        <div className="skill-bx" id="skill-bx" ref={domRef}>
                             <h1>SKILLS</h1>
                             <Row className="align-items-center">
                                 <Col xs={12} md={6} lg={3}>
@@ -90,6 +90,16 @@ export default function Skills(){
                                     <GridContainer items={skills_items["tools"]} />
                                 </Row>
                             </Collapse>
+                        </div>
+                        <div className="bg-gradient-blur-wrapper home-hero-1">
+                            <div className="bg-gradient-blur-circle-3"></div>
+                            <div className="bg-gradient-blur-circle-2"></div>
+                            <div className="bg-gradient-blur-circle-1"></div>
+                        </div>
+                        <div className="bg-gradient-blur-wrapper home-hero-2">
+                            <div className="bg-gradient-blur-circle-3"></div>
+                            <div className="bg-gradient-blur-circle-2"></div>
+                            <div className="bg-gradient-blur-circle-1"></div>
                         </div>
                     </Col>
                 </Row>

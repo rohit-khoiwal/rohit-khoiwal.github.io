@@ -31,7 +31,7 @@ export default function NavBar(){
                     <GiSkills/>
                     <span>Skills</span>
                 </Nav.Link>
-                <Nav.Link  href="#">
+                <Nav.Link  href="#projects">
                     <AiOutlineProject/>
                     <span>Projects</span>
                 </Nav.Link>
@@ -40,7 +40,7 @@ export default function NavBar(){
                     <span>Blog</span>
                 </Nav.Link>
             </Nav>
-            <div className="contact ">
+            <div className="contactCell">
                 <a href="#contact" className=""><FaMailBulk/><span>Contact</span></a>
             </div>
 
