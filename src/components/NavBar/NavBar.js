@@ -23,7 +23,7 @@ export default function NavBar(){
                     <AiOutlineHome/>
                     <span>Home</span>
                 </Nav.Link>
-                <Nav.Link href="#cv">
+                <Nav.Link target="_blank" href="https://docs.google.com/document/d/1rsAEOIoJyb8V4a-tRI8r_RuEFUaRZ8U8QTeK0wZ9Co8/export?format=pdf">
                     <ImDownload2/>
                     <span>CV</span>
                 </Nav.Link>
@@ -31,7 +31,7 @@ export default function NavBar(){
                     <GiSkills/>
                     <span>Skills</span>
                 </Nav.Link>
-                <Nav.Link href="#skills">
+                <Nav.Link  href="#">
                     <AiOutlineProject/>
                     <span>Projects</span>
                 </Nav.Link>

@@ -4,6 +4,7 @@ import "@fontsource/quicksand";
 import Navbar from './components/NavBar/NavBar.js';
 import Home from './components/Home/Home';
 import Skills from './components/Skills/Skill';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Home />
       <Skills />
+      <Projects />
     </div>
   );
 }

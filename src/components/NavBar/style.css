@@ -10,7 +10,7 @@ div .navbar{
     font-weight: bolder;
 }
 
-img{
+.navbar img{
     margin: 20px;
     width: 100px;
     display: inline-block;
