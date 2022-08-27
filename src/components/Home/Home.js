@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
+// import { ArrowRightCircle } from "react-bootstrap-icons";
 import {FaGithub, FaLinkedinIn} from "react-icons/fa";
 import TextFader from "./TextFader";
 import './style.css'
