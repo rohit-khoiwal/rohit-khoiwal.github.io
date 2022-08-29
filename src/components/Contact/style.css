@@ -1,7 +1,7 @@
 .contact {
     /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
-    padding: 60px 0 200px 0;
-    margin-top: 50px;
+    padding: 60px 0 130px 0;
+    margin-top: 100px !important;
 }
 .contact-box{
     /* background-color: #23222e; */
@@ -12,9 +12,11 @@
     /* margin-top: -60px; */
     z-index: 1;
 }
+
 .contact img {
 width: 92%;
 }
+
 .contact h2 {
 text-align: center;
     font-size: 45px;
@@ -58,5 +60,6 @@ background-color: green!important;
     height: 600px;
     background-image: linear-gradient(90deg,rgba(77,84,255,.64),rgba(208,63,144,.64) 64%,rgba(255,56,104,.64));
     filter:blur(50px);
-    top: -600px;
+    /* top: -600px; */
+    margin-top: -600px !important;
 }
