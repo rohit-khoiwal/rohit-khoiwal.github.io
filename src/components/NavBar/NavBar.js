@@ -16,7 +16,7 @@ export default function NavBar(){
           <Navbar.Brand href="#home" className="">
             <img src="https://icons.veryicon.com/png/o/education-technology/blue-gray-solid-blend-icon/artificial-intelligence-5.png" alt="logo"/>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" style={{}}/>
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
             <Nav className="align-items-end">
                 <Nav.Link href="#home" className="">

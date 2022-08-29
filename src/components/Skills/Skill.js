@@ -1,4 +1,4 @@
-import React, { useState, useRef} from "react";
+import React, { useState} from "react";
 import { Col, Collapse, Container, Row } from "react-bootstrap";
 import GridContainer from "./GridContainer";
 import skills_items from "./skills_item.js";
@@ -26,15 +26,15 @@ export default function Skills(){
             return newStates
         })
     }
-    const [ht, setHeight] = useState(0);
-    const domRef = useRef();
-    React.useEffect(() => {
-      const observer = new ResizeObserver(entries => {
-        setHeight(entries[0].contentRect.height + 100)
-      });
-      observer.observe(domRef.current);
-      return () => observer.disconnect();
-    }, []);
+    // const [ht, setHeight] = useState(0);
+    // const domRef = useRef();
+    // React.useEffect(() => {
+    //   const observer = new ResizeObserver(entries => {
+    //     setHeight(entries[0].contentRect.height + 100)
+    //   });
+    //   observer.observe(domRef.current);
+    //   return () => observer.disconnect();
+    // }, []);
 
     return (
         <section className="skills" id="skills">
@@ -42,7 +42,7 @@ export default function Skills(){
                 <Row>
                     <Col className="">
                         {/* <div className="cta-gradient-blur" id="grad1" style={{height:ht}}></div> */}
-                        <div className="skill-bx" id="skill-bx" ref={domRef}>
+                        <div className="skill-bx" id="skill-bx">
                             <h1>SKILLS</h1>
                             <Row className="align-items-center">
                                 <Col xs={12} md={6} lg={3}>
