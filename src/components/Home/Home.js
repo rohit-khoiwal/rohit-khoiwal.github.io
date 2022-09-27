@@ -28,7 +28,8 @@ export default function Home(){
                             <span className="wrap"><TextFader /></span>  
                         </h1>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        I'm an undergraduate student in my final year at Rajasthan Technical University in Kota.
+                        I've been studying machine learning for more than two years and am eager to learn more about it by applying the techniques to a various use cases.
                         </p>
                     </Col>
                 </Row>
