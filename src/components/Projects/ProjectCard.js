@@ -17,9 +17,9 @@ export default function ProjectCard(props) {
                         <p>{items.description}</p>
                         <ButtonToolbar className='overflow-hidden justify-content-center'>
                                     {items.codeUrl && 
-                                        <div className='projectBtn col-6'>
+                                        <div className='projectBtn col-12'>
                                             <Button variant="transparent" className='' target="_blank" href={items.codeUrl}>
-                                                <div className='col-6'>Source</div>
+                                                <div className='col-6'>Source Code</div>
                                                 <div className='col-6 justify-content-end'><BsArrowUpRight /></div>
                                             </Button>
                                             <div className='underline'></div>

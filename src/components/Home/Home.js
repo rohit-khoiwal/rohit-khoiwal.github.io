@@ -30,6 +30,15 @@ export default function Home(){
                         <p>
                         I'm an undergraduate student in my final year at Rajasthan Technical University in Kota.
                         I've been studying machine learning for more than two years and am eager to learn more about it by applying the techniques to a various use cases.
+                        <br/><br/>
+                        Recently, my first research paper has been approved for publication in ACM BuildSys. It is the most significant and challenging work I have completed during my summer internship.
+                        Thank you to all the other authors (
+                                                            <a href="https://www.linkedin.com/in/hetvi-shastri/?trk=public_profile_project_contributor-image&originalSubdomain=in">Hetvi Shastri</a>, 
+                                                            <a href="https://www.linkedin.com/in/vibhuti-bansal-14414a197/?originalSubdomain=in"> Vibhuti Bansal</a>, 
+                                                            <a href="https://www.linkedin.com/in/haikoo-khandor/"> Haikoo Khandor</a>,
+                                                            and especially 
+                                                            <a href="https://nipunbatra.github.io/"> Dr. Nipun Batra</a>
+                                                        ).
                         </p>
                     </Col>
                 </Row>

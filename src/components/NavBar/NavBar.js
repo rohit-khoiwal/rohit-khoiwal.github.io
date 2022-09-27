@@ -26,7 +26,8 @@ export default function NavBar(){
                     <AiOutlineHome/>
                     <span>Home</span>
                 </Nav.Link>
-                <Nav.Link target="_blank" href="https://drive.google.com/uc?id=138fUvrkaYrKgm_dYK-yzlU211MwNC9Af&export=download">
+                {/* https://drive.google.com/uc?id=138fUvrkaYrKgm_dYK-yzlU211MwNC9Af&export=download */}
+                <Nav.Link target="_blank" href="https://drive.google.com/file/d/138fUvrkaYrKgm_dYK-yzlU211MwNC9Af/view?usp=sharing">
                     <ImDownload2/>
                     <span>CV</span>
                 </Nav.Link>
@@ -38,10 +39,10 @@ export default function NavBar(){
                     <AiOutlineProject/>
                     <span>Projects</span>
                 </Nav.Link>
-                <Nav.Link href="#blog">
+                {/* <Nav.Link href="#blog">
                     <FaBlog/>
                     <span>Blog</span>
-                </Nav.Link>
+                </Nav.Link> */}
             </Nav>
             <div className="contactCell">
                 <a href="#contact" className=""><FaMailBulk/><span>Contact</span></a>
