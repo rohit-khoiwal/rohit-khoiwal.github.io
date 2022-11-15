@@ -20,13 +20,7 @@ const a = [
         "codeUrl" : "https://github.com/rohit-khoiwal/Zero-DCE-project",
         "vizUrl" : "",
     },
-    {
-        "title" : "Portfolio Website",
-        "description" : "I built a portfolio website with ReactJS and its dependencies. We used reactstrap for styling",
-        "imgUrl" : "https://media.istockphoto.com/vectors/user-experience-pop-up-windows-and-notifications-of-different-and-vector-id1179661132?k=20&m=1179661132&s=612x612&w=0&h=9fcGVcV_zo8e3HlXEN6nTygkLhJoEwz65k8bmnqc4KI=",
-        "codeUrl" : "https://github.com/rohit-khoiwal/rohit-khoiwal.github.io",
-        "vizUrl" : "",
-    }
+    
 ]
 
 export default a;
