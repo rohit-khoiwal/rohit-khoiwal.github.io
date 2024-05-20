@@ -13,10 +13,10 @@ export default function Home(){
                 <Row className="align-items-center">
                     <Col xs={2} md={1} xl={1}>
                     <div className="social-icon">
-                        <a className="col-12" href="https://github.com/rohit-khoiwal">
+                        <a className="col-12" href="https://github.com/rohit-khoiwal" target="_blank">
                             <span><FaGithub size={28}/></span>
                         </a>
-                        <a className="col-12" href="www.linkedin.com/in/rohit-khoiwal">
+                        <a className="col-12" href="https://www.linkedin.com/in/rohit-khoiwal/" target="_blank">
                             <span><FaLinkedinIn size={28}/></span>
                         </a>
                     </div>
