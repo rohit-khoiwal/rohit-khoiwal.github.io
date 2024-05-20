@@ -1,7 +1,7 @@
 import React from "react";
 import ReactRotatingText from "react-rotating-text";
 
-const content = ["Machine Learning Engineer", "Deep Learning Engineer", "Data Scientist", "Web Developer"];
+const content = ["Software Engineer", "Machine Learning Engineer", "Web Developer"];
 
 export default function TextFader(){ 
         return (  
