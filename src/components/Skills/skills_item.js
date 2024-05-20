@@ -48,7 +48,7 @@ const a =  {
         },
         {
             "label": "Rust",
-            "url" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.developer-tech.com%2Fnews%2F2021%2Ffeb%2F11%2Fmost-loved-programming-language-rust-own-foundation%2F&psig=AOvVaw2elEsH-1fvFTBYpOOWS01N&ust=1716298455862000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCND1uY6snIYDFQAAAAAdAAAAABAE"
+            "url" : "https://www.developer-tech.com/wp-content/uploads/sites/3/2021/02/rust-foundation-programming-language-development-developer.jpg"
         },
         {
             "label": "Python",
@@ -70,7 +70,7 @@ const a =  {
     "libs" : [
         {
             "label": "MFC",
-            "url" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMicrosoft_Foundation_Class_Library&psig=AOvVaw041iy1aJfzfyAKD3rFVoxS&ust=1716298644788000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIirnOisnIYDFQAAAAAdAAAAABAE"
+            "url" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShU9thQdX124r-jvgzBcS7apZicv2vMuwP5l8Zt-fjPw&s"
         },
         {
             "label": "TensorFlow",
@@ -78,7 +78,7 @@ const a =  {
         },
         {
             "label": "PyTorch",
-            "url" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.christianperone.com%2F2023%2F12%2Fpytorch-2-internals-talk%2F&psig=AOvVaw2OSvPGc1Rw1EcZ-DCJr4AE&ust=1716298564755000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLCUsMKsnIYDFQAAAAAdAAAAABAE"
+            "url" : "https://miro.medium.com/v2/resize:fit:1034/1*JupRAYk4Q2xyEBWVV4SNyg.jpeg"
         },
         // {
         //     "label": "Flax",
