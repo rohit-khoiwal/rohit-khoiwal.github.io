@@ -63,7 +63,7 @@
     -webkit-text-fill-color: transparent;
     transform: translate3d(0px, 0px, 0px) scale3d(1.1, 1.1, 1.01) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
     transform-style: preserve-3d;
-    padding: 0px 10px;
+    padding: 0px 20px 0px 20px;
 }
 
 .projects a{

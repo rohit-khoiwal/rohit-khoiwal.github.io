@@ -6,18 +6,18 @@ const a = [
         "codeUrl" : "https://github.com/rohit-khoiwal/Covid19-Sentiment-Analysis",
         "vizUrl" : "",
     },
-    // {
-    //     "title" : "ChatBot",
-    //     "description" : "The GPT-3 types and transformers are well known. We can see the incredible things the big languages model is capable of thanks to the OpenAI API. ",
-    //     "imgUrl" : "https://miro.medium.com/max/1838/0*ieFFaNJ9jskncftt",
-    //     "codeUrl" : "https://coreui.io/bootstrap-react/components/card/",
-    //     "vizUrl" : "https://coreui.io/bootstrap-react/components/card/",
-    // },
     {
         "title" : "Low Light Image Enhancer",
         "description" : "Using JAX and Flax, I recreated the code for the Zero-DCE paper. I've also used it for videos, and the outcomes are fantastic. ",
         "imgUrl" : "https://i.ytimg.com/vi/ACLPRNXoy04/maxresdefault.jpg",
         "codeUrl" : "https://github.com/rohit-khoiwal/Zero-DCE-project",
+        "vizUrl" : "",
+    },
+    {
+        "title" : "Portfolio Website",
+        "description" : "Website is great way to highlight the thing about yourself. These Portfolio website is created in ReactJs.",
+        "imgUrl" : "https://cdn.iconscout.com/icon/free/png-256/free-portfolio-website-6764331-5565151.png?f=webp   ",
+        "codeUrl" : "https://coreui.io/bootstrap-react/components/card/",
         "vizUrl" : "",
     },
     

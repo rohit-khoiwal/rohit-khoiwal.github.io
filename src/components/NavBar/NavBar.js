@@ -26,14 +26,17 @@ export default function NavBar(){
                     <AiOutlineHome/>
                     <span>Home</span>
                 </Nav.Link>
-                {/* https://drive.google.com/uc?id=138fUvrkaYrKgm_dYK-yzlU211MwNC9Af&export=download */}
-                <Nav.Link target="_blank" href="https://drive.google.com/file/d/138fUvrkaYrKgm_dYK-yzlU211MwNC9Af/view?usp=sharing">
+                <Nav.Link target="_blank" href="https://drive.google.com/file/d/1I7FVOnrVtKUTtYTrLaRlGzv4sviiuXxc/view?usp=sharing">
                     <ImDownload2/>
                     <span>CV</span>
                 </Nav.Link>
                 <Nav.Link href="#skills">
                     <GiSkills/>
                     <span>Skills</span>
+                </Nav.Link>
+                <Nav.Link href="#experience">
+                    <GiSkills/>
+                    <span>Experience</span>
                 </Nav.Link>
                 <Nav.Link  href="#projects">
                     <AiOutlineProject/>
